@@ -133,7 +133,7 @@ class CLIDoom:
                     enemy[0] += dx / dist * 0.05
                     enemy[1] += dy / dist * 0.05
                 if dist < 2 and int(time.time() * 10) % 20 == 0:
-                    self.health -= 10
+                    self.health -= 0
 
     def run(self):
         print("\n" * 50)
